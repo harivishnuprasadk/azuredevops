@@ -36,4 +36,4 @@ steps:
     azureSubscription: 'Free Trial (789c3a7a-95a6-4863-809a-3cf420aa95a9)'
     appType: 'webApp'
     WebAppName: 'crudazuredevops'
-    packageForLinux: '$(System.DefaultWorkingDirectory)\WebApp.zip'
+    packageForLinux: '$(System.DefaultWorkingDirectory)\CrudDemo\WebApp.zip'
