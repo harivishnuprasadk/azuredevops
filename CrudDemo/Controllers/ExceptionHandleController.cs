@@ -52,5 +52,12 @@ public class ExceptionHandleController : ControllerBase
     {
         return (x + y);
     }
+
+    [Route("secret")]
+    [HttpGet]
+    public string secret()
+    {
+        return "secret";
+    }
 }
 
